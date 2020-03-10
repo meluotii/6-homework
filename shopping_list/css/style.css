@@ -1,0 +1,130 @@
+body {
+    background-color: #3b3f45;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+
+
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #eb7e7f;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+*{transition: all .1s ease-in;}
+
+.mainer {
+    border: 15px white solid;
+}
+
+.header {
+    background-color: #4a4f56;
+    color: #c2767f;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    padding: 4px;
+    color: #c2767f;
+}
+
+p {
+    color: #c2767f;
+}
+
+.block {
+    background-color: #3b3f45;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+.block-list {
+    background-color: #88839e;
+    text-align: left;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 15px;
+}
+
+ul li:nth-child(1n+0) {
+	color: white;
+}
+
+li:hover {
+    background-color: #625e77;
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+}
+
+input[type="checkbox"]:checked+span.span-main {
+    text-decoration: line-through;
+    opacity: 0.5;
+    
+}
+
+
+.span-2 {
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.span-2::before {
+    content: "( ";
+}
+
+.span-2::after {
+    content: " )";
+}
+
+.block-footer {
+    background-color: #4a4f56;
+    color: #c2767f;
+    padding: 15px;
+    margin: 30px 0 60px 0;
+}
+
+a:active {
+    color: orangered;
+}
+
